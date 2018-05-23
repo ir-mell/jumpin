@@ -28,56 +28,54 @@
 
         <div class="row">
 
-            <div class="top-line d-flex align-items-center justify-content-center">
+            <div class="top-line-wrapper">
 
-                <a href="#" class="logo-link">
-                    <img src="img/logo.png" alt="logo" class="logo">
-                </a>
+                <div class="container">
 
-                <!--
-                <a href="#" class="toggle-mnu toggle-header-mnu d-lg-none"><span></span></a>
-                <nav class="top-line-menu header-menu">
-                    <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#project">О проекте</a></li>
-                        <li><a href="#program">Программа</a></li>
-                        <li><a href="#price">Стоимость</a></li>
-                        <li><a href="#about">О нас</a></li>
-                    </ul>
-                </nav>-->
+                    <div class="top-line">
 
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="#">Главная <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="#project">О проекте</a>
-                            <a class="nav-item nav-link" href="#program">Программа</a>
-                            <a class="nav-item nav-link" href="#price">Стоимость</a>
-                            <a class="nav-item nav-link" href="#about">О нас</a>
-                        </div>
+                        <a href="#" class="logo-link">
+                            <img src="img/logo.png" alt="logo" class="logo">
+                        </a>
+
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-item nav-link active" href="#">Главная <span class="sr-only">(current)</span></a>
+                                    <a class="nav-item nav-link" href="#project">О проекте</a>
+                                    <a class="nav-item nav-link" href="#program">Программа</a>
+                                    <a class="nav-item nav-link" href="#price">Стоимость</a>
+                                    <a class="nav-item nav-link" href="#about">О нас</a>
+                                </div>
+                            </div>
+                        </nav>
+
                     </div>
-                </nav>
-
+                </div>
             </div>
 
         </div>
 
         <div class="row">
 
-            <div class="phone-line">
+            <div class="phone-line-wrapper">
+                
+                <div class="container">
+                
+                <div class="phone-line">
 
-                <div class="d-flex align-items-center justify-content-center flex-wrap">
+                <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+7 989 809 22 89</span>
+                </div>
 
-                    <div class="phone">
-                        <i class="fas fa-phone"></i>
-                        <span>+7 989 809 22 89</span>
-                    </div>
-
-                    <a href="#callback" class="button-pink" onclick="$('#callModal').modal(); return false;">Хочу с вами</a>
-
+                <a href="#callback" class="button-pink" onclick="$('#callModal').modal(); return false;">Хочу с вами</a>
+                
+                </div>
+                
                 </div>
 
             </div>
@@ -213,11 +211,11 @@
                             <img class="slide-bg" src="img/slide-bg.png" alt="slide-bg">
                             <img class="cont-img" src="img/content/3-2.png" alt="cont-img">
 
-                            <h4>СОСТАВЛЯЮЩИЕ ПРОГРАММЫ</h4>
-                            <h5><strong>Ритм делового города</strong></h5>
-                            <p>Полезные для бизнеса и профессиональной деятельности знакомства, погружение и обсуждение сложностей, задач и решений со специалистом твоего профиля. Максимально полезный день в бизнес-сообществе Праги.</p>
-                            <h5><strong>В программе</strong></h5>
-                            <p>Экскурсия в корпорацию, обед с топ-менеджерами и собственниками бизнеса, ужин со специалистом сферы деятельности участника (согласуется с каждым до отъезда)</p>
+                            <h4 class="h4-2">СОСТАВЛЯЮЩИЕ ПРОГРАММЫ</h4>
+                            <h5 class="h5-2"><strong>Ритм делового города</strong></h5>
+                            <p class="p-2">Полезные для бизнеса и профессиональной деятельности знакомства, погружение и обсуждение сложностей, задач и решений со специалистом твоего профиля. Максимально полезный день в бизнес-сообществе Праги.</p>
+                            <h5 class="h5-2"><strong>В программе</strong></h5>
+                            <p class="p-2">Экскурсия в корпорацию, обед с топ-менеджерами и собственниками бизнеса, ужин со специалистом сферы деятельности участника (согласуется с каждым до отъезда)</p>
                         </div>
 
                         <div class="content third-content">
@@ -405,84 +403,67 @@
 
                 <div class="tabs-container">
                     <tab><i class="fas fa-caret-right"></i> В стоимость J-IN входит</tab>
+
+
                     <panel class="pan-1">
                         <div class="container">
                             <div class="row">
 
-
-                                <div class="w-100 d-flex flex-wrap justify-content-center">
-                                    <div class="item item-1 d-flex justify-content-center">
+                                <div class="line w-100">
+                                    <div class="item item-1">
                                         <img src="img/icons/1.png" alt="icon">
                                         <p>Уютный<br>гостиничный<br>номер в центре<br>Праги</p>
                                     </div>
 
-
-
-                                    <div class="item item-2 d-flex justify-content-center">
+                                    <div class="item item-2">
                                         <img src="img/icons/2.png" alt="icon">
                                         <p>Обеды и ужины<br>в лучших<br>ресторанах</p>
                                     </div>
 
-
-
-                                    <div class="item item-3 d-flex justify-content-center">
+                                    <div class="item item-3">
                                         <img src="img/icons/3.png" alt="icon">
                                         <p>Насыщенная<br>программа</p>
                                     </div>
                                 </div>
 
-
-                                <div class="w-100 d-flex flex-wrap justify-content-center">
-                                    <div class="item item-4 d-flex justify-content-center">
+                                <div class="line  w-100">
+                                    <div class="item item-4">
                                         <img src="img/icons/4.png" alt="icon">
                                         <p>Удобный<br>трансфер</p>
                                     </div>
 
-
-
-                                    <div class="item item-5 d-flex justify-content-center">
+                                    <div class="item item-5">
                                         <img src="img/icons/5.png" alt="icon">
                                         <p>Фотоотчет</p>
                                     </div>
 
-
-
-                                    <div class="item item-6 d-flex justify-content-center">
+                                    <div class="item item-6">
                                         <img src="img/icons/6.png" alt="icon">
                                         <p>То само<br>приключение-<br>квест</p>
                                     </div>
 
-
-
-                                    <div class="item item-7 d-flex justify-content-center">
+                                    <div class="item item-7">
                                         <img src="img/icons/7.png" alt="icon">
                                         <p>Бизнес-<br>встречи</p>
                                     </div>
                                 </div>
 
-
-                                <div class="w-100 d-flex flex-wrap justify-content-center">
-                                    <div class="item item-8 d-flex justify-content-center">
+                                <div class="line  w-100">
+                                    <div class="item item-8">
                                         <img src="img/icons/8.png" alt="icon">
                                         <p>Прогулка<br>на пароме</p>
                                     </div>
 
-
-
-                                    <div class="item item-9 d-flex justify-content-center">
+                                    <div class="item item-9">
                                         <img src="img/icons/9.png" alt="icon">
                                         <p>Барбекю-<br>пати</p>
                                     </div>
 
-
-
-                                    <div class="item item-10 d-flex justify-content-center">
+                                    <div class="item item-10">
                                         <img src="img/icons/10.png" alt="icon">
                                         <p>Театр,<br>кинотеатр и<br>ночной клуб</p>
                                     </div>
                                 </div>
-
-
 
                             </div>
                         </div>
@@ -496,13 +477,13 @@
                         <div class="container">
                             <div class="row">
 
-                                <div class="col-12 d-flex justify-content-center flex-wrap">
-                                    <div class="item item-11 d-flex justify-content-center">
+                                <div class="col-12 line">
+                                    <div class="item item-11">
                                         <img src="img/icons/11.png" alt="icon">
                                         <p>Билеты в Прагу и обратно</p>
                                     </div>
 
-                                    <div class="item item-12 d-flex justify-content-center">
+                                    <div class="item item-12">
                                         <img src="img/icons/12.png" alt="icon">
                                         <p>Помощь в оформлении Шенгенской визы</p>
                                     </div>
@@ -530,7 +511,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="w-100 d-flex justify-content-center">
-                   <p>Команда, которая создает<br> путешествия,
+                    <p>Команда, которая создает<br> путешествия,
                         <br> о которых мечтает сама!</p>
                     <img src="img/quotes-mini.png" alt="quotes-mini">
                 </div>
