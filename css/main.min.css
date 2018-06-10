@@ -3954,7 +3954,7 @@ s-content-nav i {
 
 .s-price p.first-row {
     text-align: center;
-    font-size: 27px;
+    font-size: 24px;
     font-family: RobotoBold, sans-serif;
     margin-top: 30px;
     letter-spacing: 2px
@@ -4015,6 +4015,12 @@ s-content-nav i {
 .s-price .sr-2 p {
     width: 205px
 }
+
+.s-price .date-card {
+    flex-basis: 350px;
+}
+
+
 
 .blue-buttons {
     margin-top: 30px;
@@ -5048,6 +5054,12 @@ footer .phone {
     .s-price .price-card {
         flex-basis: 300px;
     }
+    
+    .s-price .date-card {
+        flex-basis: 300px;
+    }
+    
+    
     .program {
         background: url(../img/program-bg.png) 50% 100%;
         top: 935px;
@@ -5482,6 +5494,16 @@ footer .phone {
     .s-price {
         top: 720px;
     }
+    
+    .s-price .date-card {
+        flex-basis: 200px;
+    }
+    
+    .s-price p.first-row {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
     .s-gray-2 {
         top: 815px;
     }
@@ -5728,6 +5750,12 @@ footer .phone {
     .s-price .price-card {
         flex-basis: 530px;
     }
+    
+    .s-price .date-card {
+        flex-basis: 530px;
+    }
+    
+    
     .s-price p.fourth-row {
         margin-top: 20px;
     }
@@ -6178,8 +6206,7 @@ footer .phone {
     }
     .s-price p.first-row {
         font-size: 17px;
-        margin-top: 30px;
-        text-align: left;
+        margin-top: 20px;
         letter-spacing: 0;
     }
     .s-gray-2 {
